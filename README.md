@@ -4,6 +4,8 @@ This is a Keras implementation of a CNN for estimating age and gender from a fac
 ## Dependencies
 - Python3.6+
 
+#### Methodology
+![MethodologyImg](https://user-images.githubusercontent.com/89760677/132242892-8beead61-48d8-4c3a-82d6-1e184bb79700.PNG)
 
 ## Usage
 
@@ -87,8 +89,6 @@ the detected faces.
 
 Please use the best model among `checkpoints/*.hdf5` for `WEIGHT_FILE` if you use your own trained models.
 
-
-
 ### Estimated results
 Trained on imdb, tested on wiki.
 
@@ -101,5 +101,8 @@ You can evaluate a trained model on the APPA-REAL (validation) dataset by:
 ```bash
 python evaluate_appa_real.py --weight_file WEIGHT_FILE
 ```
+## ExperimentalResults
+![Experimental-results](https://user-images.githubusercontent.com/89760677/132242243-590ce676-570e-4541-9692-d348b15abc33.PNG)
 
+![AgeGenderImg](https://user-images.githubusercontent.com/89760677/132242154-94422017-d5ed-417a-a02e-662527b07f60.PNG)
 
